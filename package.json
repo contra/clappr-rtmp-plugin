@@ -28,8 +28,8 @@
     "start": "node_modules/.bin/webpack-dev-server --content-base public/ --output-public-path /latest --hot",
     "lock": "rm -rf npm-shrinkwrap.json node_modules && npm install --silent && npm shrinkwrap"
   },
-  "dependencies": {
-    "clappr": "latest"
+  "peerDependencies": {
+    "clappr": "*"
   },
   "devDependencies": {
     "babel-core": "^5.8.25",
